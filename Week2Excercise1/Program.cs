@@ -23,7 +23,7 @@ namespace Week2Exercise1
                 case double n when (n >= 69.5 && n < 79.5): // Check if the score is between range of 69.5 and 79.5
                     Console.Write("The grade is: C.  Press 'Enter' to exit.");  // Prints letter grade of numeric score that was entered by user
                     break; // Prematurely exits program
-                case double n when (n >= 59.5 && n < 69.5): // Check if the score is between 59.5 and 69.5
+                case double n when (n >= 59.5 && n < 69.5): // Check if the score is between range of 59.5 and 69.5
                     Console.Write("The grade is: D.  Press 'Enter' to exit.");  // Prints letter grade of numeric score that was entered by user
                     break; // Prematurely exits program
                 case double n when (n < 59.5): // Check if the score is under 59.5
